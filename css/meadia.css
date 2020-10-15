@@ -1,0 +1,560 @@
+
+ /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+.logoimg {
+    width: 100px;
+}
+.mytogl{
+	border: 2px solid #e1b838;
+	background-color:  #e1b838;
+}
+.menu ul {
+   
+    width: 110px;
+    float: right;
+}
+.menu ul li a{
+	transition: .3s;
+	margin:0;
+margin-bottom: 5px;
+padding: 10px 20px !important;
+text-align: center;
+ }
+ .menu ul li:last-child a {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.slider {
+    background-image: url(../images/slider1.jpg);
+    background-repeat: no-repeat;
+    min-height: 365px;
+}
+.bannerContent {
+    background-color: #e1b838;
+    margin-top: 80px;
+}
+.bannerContent h1 {
+    font-size: 25px;
+}
+.bannerBottom h2 {
+    margin: 45px 0px;
+     font-weight: 400;
+    font-size: 18px;
+}
+.bannerContent h3{
+	 font-size: 24px;
+}
+.mySlide {
+    margin-bottom: 25px;
+}
+.mySlide li {
+    width: 20px;
+    height: 20px;
+}
+.mySlide li.slidbo {
+    width: 18px;
+    height: 18px;
+    margin-top: 7px;
+}
+/*header end*/
+/*menu start*/
+.menuTitele h1{
+	font-size: 35px;
+	padding-top: 35px;
+padding-bottom: 20px;
+}
+.menuImg {
+    width: 230px;
+  margin-left: 25px;
+}
+.menuText {
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.menuText h2 {
+    font-size: 22px;
+}
+.myList {
+    margin: 20px 0px;
+}
+.myList p {
+    margin-bottom: 8px;
+    padding: 0px 12px;
+}
+.menurow {
+    padding: 15px 0px;
+}
+
+.discoTOp {
+   padding:45px;
+}
+.discoText h2 {
+    font-size: 25px;  
+    margin-top: 20px;
+    margin-right: 45px;
+}
+.mydisbtn{
+	width: 120px;
+	font-size: 20px;
+	margin-right: 45px;
+}
+.discoBottom img {
+    width: 135px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+.discoImg {
+    margin-left: -23px;
+}
+.discoBottom {
+
+    text-align: left;
+}
+
+/*special start*/
+.specialTitle {
+    width: 263px;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+.comn_h2 {
+    font-size: 18px;
+}
+.specialTitle h3 {
+    margin: 15px;
+}
+.sprcialright p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+.special_right {
+    margin-top: 150px;
+}
+/*mehtod start*/
+.method_right {
+    margin-left: -12px;
+    margin-bottom: 45px;
+}
+.mehto_right h2 {
+    font-size: 25px;
+}
+.mehto_right {
+    margin-top: 210px;
+}
+.mehto_right h2{
+	padding-left: 0;
+}
+.mehto_right p{
+	font-size: 16px;
+}
+/*music start*/
+.musicpart {
+    margin-right: 12px;
+}
+.music_left h2 {
+    font-size: 25px;
+}
+.musicpart p {
+    font-size: 25px;
+}
+.music_right {
+    margin-top: 30px;
+}
+.music_right p {
+    font-size: 20px;
+     letter-spacing: 0;
+    word-spacing: 0;
+}
+.musictop {
+    padding-top: 108px;
+}
+/*footer start*/
+footer {
+    margin-top: 55px;
+}
+.footerTop img {
+    width: 145px;
+}
+.footerTop h1 {
+    font-size: 25px;
+}
+.footer1 h2 {
+    font-size: 25px;
+ }
+ .musicpart p {
+    font-size: 17px;
+}
+.footer1 p:last-child {
+    font-size: 20px;
+}
+.footer1 {
+    margin: 30px 0px;
+}
+.footer2 {
+    text-align: center;
+}
+.footerBottom1 p {
+    font-size: 21px;
+    text-align: center;
+}
+.footerBottom {
+    padding: 30px 0px;
+}
+.footerBottom2 i {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+ }
+.footerBottom2 {
+    margin-right: 30px;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+.footer2 a, .footer3 a {
+    font-size: 18px;
+}
+.footerbootm3 p {
+    text-align: center;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.mytogl{
+	border: 2px solid #e1b838;
+	background-color:  #e1b838;
+}
+.menu ul {
+    border: 3px solid #e1b838;
+    width: 280px;
+}
+.menu ul li a{
+	transition: .3s;
+	margin:0;
+margin-bottom: 5px;
+padding: 10px 20px !important;
+text-align: center;
+ }
+  .menu ul li:last-child a {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.slider {
+    min-height: 545px;
+}
+.bannerContent {
+    background-color: #e1b838;
+    margin-top: 135px;
+    width: 320px;
+    margin-left: -65px;
+}
+.bannerContent h1 {
+    font-size: 30px;
+}
+.bannerBottom h2 {
+    margin-left: -70px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.bannerContent h3{
+	 font-size: 24px;
+}
+.mySlide {
+    margin-bottom:80px;
+    margin-left: 5px;
+}
+/*header end*/
+/*menu start*/
+.menuImg {
+    margin-left: 75px;
+}
+.menuText {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.menurow {
+    padding: 15px 0px;
+}
+.discoText h2 {
+    font-size: 35px;
+}
+.discoText {
+    float: left;
+}
+.discoBottom h3 {
+    margin-bottom: 45px;
+}
+/*special start*/
+.specialTitle {
+    width: 260px;
+    margin-left: 0;
+}
+.comn_h2 {
+    background-color: #e1b838;
+    font-weight: 900;
+    font-size: 20px;
+ }
+.specialTitle h3 {
+    margin: 35px;
+}
+.sprcialright p {
+    
+    letter-spacing: 0;
+word-spacing: 0;
+}
+.special_right {
+    margin-top: 107px;
+    margin-left: 80px;
+    float: none;
+}
+/*methd start*/
+.method_left {
+    margin-top: 60px;
+    width: 410px;
+}
+.mehto_right {
+    margin-top: 100px;
+}
+.method_right {
+    margin-left: 60px;
+}
+.mehto_right h2 {
+    padding: 10px 0px;
+    font-size: 25px;
+    padding-left: 0;
+}
+.mehto_right p {
+    font-size: 17px;
+}
+/*music start*/
+.musictop {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.music_left h2 {
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.musicpart p {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.music_right {
+    margin-top: 22px;
+    padding-left: 25px;
+}
+.music_right p {
+    font-size: 20px;
+    letter-spacing: 0;
+    word-spacing: 3px;
+}
+/*footer start*/
+footer {
+    margin-top: 50px;
+}
+.footerTop h1 {
+    font-size: 30px;
+    margin: 20px 0px 40px;
+}
+.foterpart {
+    width: 290px;
+}
+.footer1 h2 {
+    font-size: 25px;
+}
+.footer1 p{
+	font-size: 18px;
+}
+.footer1 p:last-child {
+    font-size: 21px;
+}
+.footer2 a, .footer3 a {
+    font-size: 18px;
+}
+.footerBottom1 p {
+    font-size: 21px;
+}
+.footerBottom2 i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.footerbootm3 p {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.mytogl{
+	border: 2px solid #e1b838;
+	background-color:  #e1b838;
+}
+.menu ul {
+    border: 3px solid #e1b838;
+    width: 400px;
+}
+
+.menu ul li a{
+	transition: .3s;
+	margin:0;
+margin-bottom: 5px;
+padding: 10px 20px !important;
+text-align: center;
+font-size: 22px;
+ }
+ .menu ul li:last-child a {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.bannerContent {
+    margin-top: 130px
+ }
+.bannerContent h1 {
+    font-size: 35px;
+ }
+.bannerContent h3 {
+    font-size: 30px;
+ }
+.bannerBottom h2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+.mySlide {
+    margin-bottom: 100px;
+    left: -85px;
+}
+.menuText {
+    width: 220px;
+}
+.menuText h2 {
+    font-size: 25px;
+     }
+.myList p {
+    padding:0px 3px;
+}
+.discoText h2 {
+    font-size: 35px;
+}
+.discoImg {
+    width: 430px;
+    margin-left: -60px;
+}
+.discoBottom img {
+    width: 135px;
+    margin-top: 30px;
+}
+.mydisbtn {
+    margin-top: 10px;
+}
+/*special start*/
+.specialTitle {
+    width: 300px;
+    margin-left: 15px;
+ }
+ .comn_h2 {
+    font-size: 20px;
+ }
+ .specialTitle h3 {
+    margin: 25px;
+}
+.sprcialright p {
+    font-size: 16px;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+.special_right {
+    float: right;
+    margin-top: 120px;
+}
+.sprcial_left2 {
+ position: relative;
+top: 130px;
+left: 40px;
+}
+/*method start*/
+
+.method {
+    margin: 60px 0px 60px;
+}
+.mehto_right {
+    margin-top: 150px;
+}
+.mehto_right h2 {
+    padding: 15px 0px;
+    font-size: 25px;
+}
+.mehto_right p {
+    font-weight: 400;
+    font-size: 17px;
+    word-spacing: 0;
+    letter-spacing: 0;
+}
+.music_left h2 {
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.musicpart p {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.music_right {
+    margin-top: 25px;
+}
+.music_right p {
+    font-size: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+/*footer start*/
+footer {
+    margin-top: 60px;
+}
+.footerTop img {
+    width: 150px;
+}
+.footerTop h1 {
+    font-size:28px;
+ }
+.footer1 h2 {
+    font-size: 30px;
+}
+.musicpart p {
+    font-size: 19px;
+    letter-spacing: 0;
+}
+.footer1 p:last-child {
+    font-size: 22px;
+}
+.footer2 a, .footer3 a {
+    color: #fff !important;
+    font-size: 18px;
+}
+.footerBottom1 p {
+    font-weight: 400;
+    font-size: 22px;
+}
+.footerbootm3 p {
+    font-size:18px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
